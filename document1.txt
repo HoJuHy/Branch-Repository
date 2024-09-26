@@ -10,6 +10,8 @@ def partition(l, r, nums):
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return ptr
 #구구가가
+#뜌뜌땨땨
+#뜌땨우따
 
 def quicksort(l, r, nums):
     if len(nums) == 1:  # Terminating Condition for recursion. VERY IMPORTANT!
@@ -31,3 +33,5 @@ result = [1, 2, 2, 4, 4, 5, 6, 6, 7, 8]
 print(quicksort(0, len(example)-1, example))
 
 #구구가가
+#엘렐렐레에에
+#으헤
