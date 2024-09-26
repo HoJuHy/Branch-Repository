@@ -1,7 +1,7 @@
 // C program for Merge Sort
 #include <stdio.h>
 #include <stdlib.h>
-
+// 빙크스의 술을 전해주러 간다네
 // Merges two subarrays of arr[].
 // First subarray is arr[l..m]
 // Second subarray is arr[m+1..r]
@@ -11,7 +11,7 @@ void merge(int arr[], int l,
 	int i, j, k;
 	int n1 = m - l + 1;
 	int n2 = r - m;
-
+//요호호호 호오
 	// Create temp arrays
 	int L[n1], R[n2];
 
@@ -54,7 +54,7 @@ void merge(int arr[], int l,
 		i++;
 		k++;
 	}
-
+//구구가가
 	// Copy the remaining elements of
 	// R[], if there are any
 	while (j < n2)
